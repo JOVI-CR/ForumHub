@@ -1,0 +1,38 @@
+# Ignorar ficheiros de log
+logs
+*.log
+
+# Ignorar pastas de build e ficheiros gerados pelo Maven
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Ignorar ficheiros gerados por IDEs
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+### Eclipse ###
+.classpath
+.project
+.settings/
+
+### VS Code ###
+.vscode/
+
+# Ignorar ficheiros de configuração com informações sensíveis
+# Este é o mais importante para proteger a sua senha!
+application.properties
+
+# Ignorar ficheiros do sistema operativo
+.DS_Store
+Thumbs.db
